@@ -31,6 +31,12 @@ export default function Navbar() {
 
         <div className={`nav-links ${isMenuOpen ? 'active' : ''}`}>
           <button
+            onClick={() => scrollToSection('about')}
+            className="nav-link"
+          >
+            Sobre
+          </button>
+          <button
             onClick={() => scrollToSection('features')}
             className="nav-link"
           >
@@ -41,6 +47,12 @@ export default function Navbar() {
             className="nav-link"
           >
             Como funciona
+          </button>
+          <button
+            onClick={() => scrollToSection('team')}
+            className="nav-link"
+          >
+            Equipe
           </button>
           <button
             onClick={() => scrollToSection('validation')}
