@@ -12,7 +12,7 @@ export default function Footer() {
               <span className="logo-scan">Scan</span>
             </div>
             <p className="footer-subtitle">
-              Projeto acadêmico — Facens 2025
+              Projeto acadêmico — Facens 2026
             </p>
           </div>
           <div className="footer-right">
@@ -35,7 +35,7 @@ export default function Footer() {
               Jira
             </a>
             <a
-              href="https://forms.google.com"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScSJhj4EPixxwHfSB_S4wFJNqtHSw2WOlC59laQ5P9mja-zfg/viewform"
               target="_blank"
               rel="noopener noreferrer"
               className="footer-link"
@@ -47,7 +47,7 @@ export default function Footer() {
         </div>
         <div className="footer-bottom">
           <p className="copyright">
-            © 2025 XMLScan. Todos os direitos reservados.
+            © 2026 XMLScan. Todos os direitos reservados.
           </p>
         </div>
       </div>

@@ -62,9 +62,14 @@ export default function Navbar() {
           </button>
         </div>
 
-        <button className="btn btn-primary navbar-cta">
+        <a
+          href="https://drive.google.com/file/d/1QS1Ku1rkPGzp6OgbDLX6cP-XI9VNCvy_/view"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary navbar-cta"
+        >
           Acessar o sistema
-        </button>
+        </a>
       </div>
     </nav>
   )
