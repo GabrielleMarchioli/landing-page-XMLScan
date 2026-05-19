@@ -3,7 +3,7 @@ import './Validation.css'
 
 export default function Validation() {
   const handleFormClick = () => {
-    window.open('https://forms.google.com', '_blank')
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLScSJhj4EPixxwHfSB_S4wFJNqtHSw2WOlC59laQ5P9mja-zfg/viewform', '_blank')
   }
 
   return (
